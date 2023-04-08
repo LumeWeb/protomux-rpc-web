@@ -64,8 +64,7 @@ export default class ProtomuxRPC extends EventEmitter {
             encoding: response,
             onmessage: this._onresponse.bind(this),
         });
-        this._channel.open(options?.handshake);
-        await this._channel.ready;
+        await this._channel.open(options?.handshake);
     }
     _onopen(handshake) {
         this.emit("open", handshake);
