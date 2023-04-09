@@ -1,13 +1,12 @@
 import EventEmitter from "events";
 // @ts-ignore
-import Protomux from "protomux";
+import Protomux from "@lumeweb/kernel-protomux-client";
 // @ts-ignore
 import c from "compact-encoding";
 // @ts-ignore
 import bitfield from "compact-encoding-bitfield";
 // @ts-ignore
 import bits from "bits-to-bytes";
-import * as buffer from "buffer";
 
 export default class ProtomuxRPC extends EventEmitter {
   private _id: number;

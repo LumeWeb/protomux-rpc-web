@@ -4,6 +4,7 @@
     "type": "module",
     "main": "dist/index.js",
     "dependencies": {
+        "@lumeweb/kernel-protomux-client": "git+https://git.lumeweb.com/LumeWeb/kernel-protomux-client.git",
         "bits-to-bytes": "^1.3.0",
         "compact-encoding": "^2.11.0",
         "compact-encoding-bitfield": "^1.0.0",
