@@ -1,6 +1,6 @@
 import EventEmitter from "events";
 // @ts-ignore
-import Protomux from "protomux";
+import Protomux from "@lumeweb/kernel-protomux-client";
 // @ts-ignore
 import c from "compact-encoding";
 // @ts-ignore
