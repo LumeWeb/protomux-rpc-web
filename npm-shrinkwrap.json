@@ -8,7 +8,7 @@
             "name": "@lumeweb/protomux-rpc-web",
             "version": "0.0.2-develop.1",
             "dependencies": {
-                "@lumeweb/kernel-protomux-client": "^0.0.2-develop.1"
+                "@lumeweb/kernel-protomux-client": "^0.0.2-develop.2"
             },
             "devDependencies": {
                 "@lumeweb/node-library-preset": "^0.2.7",
@@ -1660,24 +1660,25 @@
             }
         },
         "node_modules/@lumeweb/kernel-protomux-client": {
-            "version": "0.0.2-develop.1",
-            "resolved": "https://registry.npmjs.org/@lumeweb/kernel-protomux-client/-/kernel-protomux-client-0.0.2-develop.1.tgz",
-            "integrity": "sha512-xY23JMak7aa1PE78yeY0fzcziOXMAZHhchoMDcPPv6fdS3SIJvPiGoa9E0LCwHbguPoMdhGiUW2ZsE/JeCttVA==",
+            "version": "0.0.2-develop.2",
+            "resolved": "https://registry.npmjs.org/@lumeweb/kernel-protomux-client/-/kernel-protomux-client-0.0.2-develop.2.tgz",
+            "integrity": "sha512-p7Oa4bpzOZVZzAaNIcAVFaWoxYIOUZmuNSScDGewKHCXEQz+eqY4nDwHddA9LA2uXR9Mbjz1ffOGB4PsZBuk3w==",
             "dependencies": {
-                "@lumeweb/kernel-swarm-client": "^0.0.2-develop.2",
+                "@lumeweb/kernel-swarm-client": "^0.0.2-develop.4",
                 "@lumeweb/libkernel": "^0.1.0-develop.14",
                 "buffer": "^6.0.3",
                 "p-defer": "^4.0.0"
             }
         },
         "node_modules/@lumeweb/kernel-swarm-client": {
-            "version": "0.0.2-develop.2",
-            "resolved": "https://registry.npmjs.org/@lumeweb/kernel-swarm-client/-/kernel-swarm-client-0.0.2-develop.2.tgz",
-            "integrity": "sha512-eV9IF1fGm4WEIOPuwsrSVqSkYFLOBreLxa0fia23yK84IRL6q0ptgEg3R1DfBXAbPWnUJLesikgx7EXzGbekEQ==",
+            "version": "0.0.2-develop.4",
+            "resolved": "https://registry.npmjs.org/@lumeweb/kernel-swarm-client/-/kernel-swarm-client-0.0.2-develop.4.tgz",
+            "integrity": "sha512-FqpgKZSSFiHyDYO6wsEjS1HIH+nagdRoVQqmwl0DbwzDLj5ycGhwHgJw0plZ3YsyQpk9EnhfUG8LihwnL+EokQ==",
             "dependencies": {
                 "@lumeweb/libkernel": "^0.1.0-develop.9",
                 "async-mutex": "^0.4.0",
-                "b4a": "^1.6.4"
+                "b4a": "^1.6.4",
+                "backoff.js": "^1.0.4"
             }
         },
         "node_modules/@lumeweb/libkernel": {
@@ -3766,6 +3767,11 @@
             "peerDependencies": {
                 "@babel/core": "^7.0.0"
             }
+        },
+        "node_modules/backoff.js": {
+            "version": "1.0.4",
+            "resolved": "https://registry.npmjs.org/backoff.js/-/backoff.js-1.0.4.tgz",
+            "integrity": "sha512-DSihmB0IK9dGOyd6ml1jzV6kINfZnupPHmo7mYXX1yxTn3Z/hCNdQeqrFUBPmxYQIN52ecy2E/uP0gEAEyVvIA=="
         },
         "node_modules/balanced-match": {
             "version": "1.0.2",
