@@ -1,5 +1,4 @@
 import EventEmitter from "events";
-// @ts-ignore
 import Protomux from "@lumeweb/kernel-protomux-client";
 // @ts-ignore
 import c from "compact-encoding";
@@ -112,12 +111,13 @@ export default class ProtomuxRPC extends EventEmitter {
     method: string;
     value: any;
   }) {
-    let error = null;
+    let error: string | null = null;
 
     const responder = this._responders.get(method);
 
-    if (responder === undefined) error = `unknown method '${method}'`;
-    else {
+    if (responder === undefined) {
+      error = `unknown method '${method}'`;
+    } else {
       const {
         valueEncoding = this._defaultValueEncoding,
         requestEncoding = valueEncoding,
