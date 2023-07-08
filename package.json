@@ -18,7 +18,7 @@
         "semantic-release": "semantic-release"
     },
     "dependencies": {
-        "@lumeweb/kernel-protomux-client": "^0.0.2-develop.4"
+        "@lumeweb/kernel-protomux-client": "^0.0.2-develop.5"
     },
     "files": [
         "lib"
