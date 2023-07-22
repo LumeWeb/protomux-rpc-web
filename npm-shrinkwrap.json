@@ -8,7 +8,7 @@
             "name": "@lumeweb/protomux-rpc-web",
             "version": "0.0.2-develop.8",
             "dependencies": {
-                "@lumeweb/kernel-protomux-client": "^0.0.2-develop.9"
+                "@lumeweb/kernel-protomux-client": "^0.0.2-develop.10"
             },
             "devDependencies": {
                 "@lumeweb/node-library-preset": "^0.2.7",
@@ -1660,20 +1660,20 @@
             }
         },
         "node_modules/@lumeweb/kernel-protomux-client": {
-            "version": "0.0.2-develop.9",
-            "resolved": "https://registry.npmjs.org/@lumeweb/kernel-protomux-client/-/kernel-protomux-client-0.0.2-develop.9.tgz",
-            "integrity": "sha512-EvfRq60SO/FbOi2J1vqWJb5o1IPJ2w+nqGylhNVAh0DVUXxQTDnqQ5VTezky9vcV+8Mn78OjtsWObTHx6H0Wqg==",
+            "version": "0.0.2-develop.10",
+            "resolved": "https://registry.npmjs.org/@lumeweb/kernel-protomux-client/-/kernel-protomux-client-0.0.2-develop.10.tgz",
+            "integrity": "sha512-3e7fkNpDs5uQIxxv9AHfP4F6jBvaKruxJ7nTl2mpFpFuKGHQQ4hcYcNGHHOjk+yRm02EEFQ90c1QJGgolWiv+A==",
             "dependencies": {
-                "@lumeweb/kernel-swarm-client": "^0.0.2-develop.11",
+                "@lumeweb/kernel-swarm-client": "^0.0.2-develop.12",
                 "@lumeweb/libkernel": "^0.1.0-develop.16",
                 "buffer": "^6.0.3",
                 "p-defer": "^4.0.0"
             }
         },
         "node_modules/@lumeweb/kernel-swarm-client": {
-            "version": "0.0.2-develop.11",
-            "resolved": "https://registry.npmjs.org/@lumeweb/kernel-swarm-client/-/kernel-swarm-client-0.0.2-develop.11.tgz",
-            "integrity": "sha512-AJuIvMWI4VkgtjJ4cGG2OEgIeRZuQuLmD0c2a3FPNf2GoGUF3wGrPQqWZzVhoDnKgm0KT25MapN6q8HcF1/Btw==",
+            "version": "0.0.2-develop.12",
+            "resolved": "https://registry.npmjs.org/@lumeweb/kernel-swarm-client/-/kernel-swarm-client-0.0.2-develop.12.tgz",
+            "integrity": "sha512-G9uXdrgBGAbOaPTin0C156dwuozShPk1wlib1TEA+aaOIPNW1g2rtvEqMlJF5fbL8VHKts/1fcfiude7swebpw==",
             "dependencies": {
                 "@lumeweb/libkernel": "^0.1.0-develop.9",
                 "async-mutex": "^0.4.0",
