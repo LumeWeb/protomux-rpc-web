@@ -1,6 +1,6 @@
 {
     "name": "@lumeweb/protomux-rpc-web",
-    "version": "0.0.2-develop.9",
+    "version": "0.0.2-develop.10",
     "type": "module",
     "main": "lib/index.js",
     "devDependencies": {
