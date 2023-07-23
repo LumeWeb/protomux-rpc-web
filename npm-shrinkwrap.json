@@ -8,7 +8,7 @@
             "name": "@lumeweb/protomux-rpc-web",
             "version": "0.0.2-develop.12",
             "dependencies": {
-                "@lumeweb/kernel-protomux-client": "^0.0.2-develop.13"
+                "@lumeweb/kernel-protomux-client": "^0.0.2-develop.14"
             },
             "devDependencies": {
                 "@lumeweb/node-library-preset": "^0.2.7",
@@ -1660,20 +1660,20 @@
             }
         },
         "node_modules/@lumeweb/kernel-protomux-client": {
-            "version": "0.0.2-develop.13",
-            "resolved": "https://registry.npmjs.org/@lumeweb/kernel-protomux-client/-/kernel-protomux-client-0.0.2-develop.13.tgz",
-            "integrity": "sha512-AJp36+Zj6TJ1cwTqcVlTdcFFlyd4vr391zj+PbwPorBSAF6rDhcAghLS519U/VogM7rtF7lWZv2zk5DjDFHqkw==",
+            "version": "0.0.2-develop.14",
+            "resolved": "https://registry.npmjs.org/@lumeweb/kernel-protomux-client/-/kernel-protomux-client-0.0.2-develop.14.tgz",
+            "integrity": "sha512-uIJgCl7mGi5Fv+5Dnz2CZuXUl92nS2fHkpJl4NkgtstsztmeD/1c8CEBH1HymAuFR9ctvevgYhulXcQHeLClUA==",
             "dependencies": {
-                "@lumeweb/kernel-swarm-client": "^0.1.0-develop.2",
+                "@lumeweb/kernel-swarm-client": "^0.1.0-develop.3",
                 "@lumeweb/libkernel": "^0.1.0-develop.16",
                 "buffer": "^6.0.3",
                 "p-defer": "^4.0.0"
             }
         },
         "node_modules/@lumeweb/kernel-swarm-client": {
-            "version": "0.1.0-develop.2",
-            "resolved": "https://registry.npmjs.org/@lumeweb/kernel-swarm-client/-/kernel-swarm-client-0.1.0-develop.2.tgz",
-            "integrity": "sha512-hBCPSNg6uWKZKhFsD+8rLYFz+eagG0VjUyNcasK7+kFGDGC69+PP0RgFpYsOUNnD/al86nUl8XlaJUo/Z5G1bQ==",
+            "version": "0.1.0-develop.3",
+            "resolved": "https://registry.npmjs.org/@lumeweb/kernel-swarm-client/-/kernel-swarm-client-0.1.0-develop.3.tgz",
+            "integrity": "sha512-4KQ/PcwKjgqaGYwMAKLf84kCveC7KFiV3CvSbI68mYCwb+EqwNHXbtL90wTvG6DEc8FupyHDOVa7QaXnTQfK9g==",
             "dependencies": {
                 "@lumeweb/libkernel": "^0.1.0-develop.9",
                 "async-mutex": "^0.4.0",
@@ -1682,12 +1682,13 @@
             }
         },
         "node_modules/@lumeweb/libkernel": {
-            "version": "0.1.0-develop.24",
-            "resolved": "https://registry.npmjs.org/@lumeweb/libkernel/-/libkernel-0.1.0-develop.24.tgz",
-            "integrity": "sha512-rUCa6gJLOtYb7FShwoQ+Nsn/ounqjTmzoCDuveQXnOXsDkN4yolTYtR/WhVetnVjaBiAs/m37uchB25oOwpBJg==",
+            "version": "0.1.0-develop.27",
+            "resolved": "https://registry.npmjs.org/@lumeweb/libkernel/-/libkernel-0.1.0-develop.27.tgz",
+            "integrity": "sha512-XkO16wzr2k1j9CrraVrL5vm5ysY+wJGwfJf9/PAknpLGko8j8Z/TbO5h/Q43iNjYjLlwBL2cGngX8orCZBWVDA==",
             "dependencies": {
                 "@lumeweb/libweb": "0.2.0-develop.27",
-                "emittery": "^1.0.1"
+                "emittery": "^1.0.1",
+                "p-defer": "^4.0.0"
             }
         },
         "node_modules/@lumeweb/libkernel/node_modules/emittery": {
