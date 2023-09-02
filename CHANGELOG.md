@@ -1,3 +1,5 @@
+## [0.0.2-develop.17](https://git.lumeweb.com/LumeWeb/protomux-rpc-web/compare/v0.0.2-develop.16...v0.0.2-develop.17) (2023-09-02)
+
 ## [0.0.2-develop.16](https://git.lumeweb.com/LumeWeb/protomux-rpc-web/compare/v0.0.2-develop.15...v0.0.2-develop.16) (2023-07-29)
 
 ## [0.0.2-develop.15](https://git.lumeweb.com/LumeWeb/protomux-rpc-web/compare/v0.0.2-develop.14...v0.0.2-develop.15) (2023-07-24)
